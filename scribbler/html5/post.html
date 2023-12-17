@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- TODO: Include Google Fonts file here -->
+
+    <!-- Include Css File  -->
+    <link rel="stylesheet" href="/css/post.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    
+  <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu Mono" rel="stylesheet" />
+    <!-- Script File -->
+    <script src="/js/post.js"></script>
+    <!-- bootstrap script -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+    <div class="bg">
+        <section class="s1">
+            <div class="logo">
+              <h1>ScriBBler</h1>
+              <div class="subheading">Explore, Imagine, Create</div>
+            </div>
+        
+            <div class="Signin">
+              <button class="btn4" data-toggle="modal" data-target="#signinModal" data-backdrop='static'
+                data-keyboard='false'>Sign In</button>
+              <button class="btn4" data-toggle="modal" data-target="#signupModal" data-backdrop='static'
+                data-keyboard='false'>Sign Up</button>
+            </div>
+          </section>
+        
+      
+          <div class="modal fade" id="signinModal" role="dialog" style="padding: 15rem;">
+            <div class="modal-dialog modal-dialog-centered">
+      
+              <div class="modal-content modal-font">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                  <h2 class="modal-title text-center modal-font">Welcome Back!</h2>
+                  <hr>
+      
+                  <div class="modal-body">
+                    <form style="margin: 15px;">
+                      <div class="form-group " style="font-family: Ubuntu">
+                        <label for="exampleInputEmail1" class="holder">Username</label>
+                        <input type="text" class="form-control" id="exampleInputloginEmail1" required="true"
+                          style="background-color: rgb(223, 215, 215);" aria-describedby="emailHelp"
+                          placeholder="Enter Username">
+      
+                      </div>
+                      <div class="form-group " style="font-family: Ubuntu">
+                        <label for="exampleInputPassword1" class="holder">Password</label>
+                        <input type="password" class="form-control" id="exampleInputloginPassword" required="true"
+                          style="background-color: rgb(223, 215, 215);font-family: Ubuntu" placeholder="Enter Password">
+                      </div>
+      
+                      <button type="submit" class="btn1" style="background-color: #0ec038; color: white;">
+                        Sign In
+                      </button>
+                      <div>
+                        <h4 class="text-center" style="padding: 5px;font-family: Ubuntu">Not a
+                          member?
+                          <a> <span style="color: blue; cursor: pointer;" data-toggle="modal" data-target="#signupModal"
+                              data-backdrop='static' data-keyboard='false'>Sign Up</span></a>
+                        </h4>
+                      </div>
+      
+                    </form>
+      
+                  </div>
+                </div>
+      
+      
+              </div>
+            </div>
+          </div>
+      
+      
+          <div class="modal fade" id="signupModal" role="dialog" style="padding: 10rem;">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content modal-font">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                  <h2 class="modal-title text-center" class="holder">Get Started</h2>
+                  <hr>
+      
+                  <div class="modal-body">
+                    <form style="margin: 12px;">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="holder">Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" required="true"
+                          style="background-color: rgb(223, 215, 215);" aria-describedby="emailHelp"
+                          placeholder="Enter Full Name">
+      
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1" class="holder">Username</label>
+                        <input type="text" class="form-control" id="exampleInputEmail" required="true"
+                          style="background-color: rgb(223, 215, 215);" aria-describedby="emailHelp"
+                          placeholder="Enter Username">
+      
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1" class="holder">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword" required="true"
+                          style="background-color: rgb(223, 215, 215);" placeholder="Enter Password">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1" class="holder">Confirm Password</label>
+                        <input type="password" class="form-control" id="exampleInputcPassword" required="true"
+                          style="background-color: rgb(223, 215, 215);" placeholder="Confirm Password">
+                      </div>
+      
+                      <button type="submit" class="btn1" required="true" style="background-color: #0ec038; color: white;">
+                        Sign Up
+                      </button>
+      
+      
+                    </form>
+      
+                  </div>
+      
+      
+      
+                </div>
